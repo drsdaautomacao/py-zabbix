@@ -1,0 +1,9 @@
+zabbix:
+  host: 10.34.0.5
+  path: /
+  ssl: false
+  api_version: "6.4"
+  api_token: "homeassistant.floats_discovery"
+  username: Admin
+  password: zabbix
+  publish_states_host: homeassistant
