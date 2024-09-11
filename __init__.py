@@ -10,7 +10,8 @@ from urllib.error import HTTPError
 from urllib.parse import urljoin
 
 from pyzabbix import ZabbixAPI, ZabbixAPIException
-from .sender import ZabbixMetric, ZabbixSender
+from .sender import ZabbixSender
+#from .sender import ZabbixMetric, ZabbixSender
 import voluptuous as vol
 
 from homeassistant.const import (
